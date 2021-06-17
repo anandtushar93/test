@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Toby Willsmer">
+  <title>Modal</title>
+  <link rel="stylesheet" href="modal.css" />
+
+</head>
+<body>
+<!--Modal Start-->
+  <div class="main modal_align">
+    <div class="modal_container">
+      <div class="parent">
+        <!-- modal left side-->  
+        <div class="modal_text">
+          <h1>be<br>the<br>first<br>to<br>know</h1>
+          <p>Join our mailing listing and you will be among the first to recive exclusive offers, news on upcomming launches and limited edition assess.</p>
+        </div>
+        <!-- modal left side-->
+
+
+        <!-- modal right side-->
+        <div class="modal_form">
+          <!-- close button-->
+          <a id="close">&#x2715</a>
+          
+          <!-- Form Start-->
+          <form class="custom_form">
+            <div class="form_control">
+              <label for="email">Email Address*</label>
+              <input type="email" name="email">
+            </div>
+
+            <div class="form_control">
+              <label for="date">Date of Birth (MM/DD/YYYY)*</label>
+              <input type="date" name="date" min="1889-01-01" max="2021-17-06">
+            </div>
+
+            <div class="form_control">
+              <label for="gender">Gender*</label>
+              <select name="gdnder">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn">Join Now</button>
+          </form>
+
+          <p class="gery">By Clicking submit, I agree to recive Champs soprts emails and I agree to the trems of Use. for more information please see our <a>Privacy Policy</a> or <a>Terms of use</a>.</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!--Modal End-->
+
+
+</body>
+</html>
